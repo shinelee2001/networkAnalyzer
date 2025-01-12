@@ -1,4 +1,4 @@
-Network Analyzer
+# Network Analyzer
 
 This network analyzer tool captures and monitors network traffic on a specified interface, displaying real-time packet statistics and providing WHOIS information for IP addresses.
 Features
@@ -7,27 +7,6 @@ Features
     Traffic Statistics: Displays the top source IPs with protocol counts (TCP, UDP, ICMP).
     WHOIS Lookup: Provides WHOIS information for a given IP address.
     Interactive Mode: Allows you to control the monitoring and WHOIS lookups through simple commands.
-
-Requirements
-
-    Python 3.x
-    Scapy (pip install scapy)
-    whois (for WHOIS lookups on Linux or macOS)
-
-Installation
-
-    Clone this repository to your local machine:
-
-git clone https://github.com/your-username/networkAnalyzer.git
-cd networkAnalyzer
-
-Install the required dependencies:
-
-pip install scapy
-
-On Linux, you may need to install the whois command if it's not already installed:
-
-    sudo apt-get install whois
 
 Usage
 
@@ -78,7 +57,7 @@ WHOIS Information (after running whois [ip]):
 
 How It Works
 
-The tool captures packets using Scapy, a powerful Python library for packet manipulation. It processes the packets to display source IPs and the protocols they use (TCP, UDP, ICMP). It then allows the user to request WHOIS information for any IP address, which is retrieved using the whois command.
+The tool captures packets using Scapy. It processes the packets to display source IPs and the protocols they use (TCP, UDP, ICMP). It then allows the user to request WHOIS information for any IP address, which is retrieved using the whois command.
 Threading
 
     Packet Sniffing: Runs in the background and continuously monitors the network interface for incoming packets.
