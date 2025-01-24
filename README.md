@@ -1,6 +1,6 @@
 # Network Analyzer
 
-This network analyzer tool captures and monitors network traffic on a specified interface, displaying real-time packet statistics and providing WHOIS information for IP addresses.
+This network analyzer tool captures and monitors network traffic on a specified interface, displaying real-time packet statistics and providing WHOIS/Nmap information for IP addresses.
 Features
 
     Packet Sniffing: Continuously monitors network traffic and captures packets.
